@@ -25215,7 +25215,7 @@ createdInsfgggbbb3.Parent = E.Parent
 createdInsfgggbbb3.Name = "SPEED"
 createdInsfgggbbb3:FindFirstChild("BOUNDED").Text = "Set speed to text on textbox"
 createdInsfgggbbb3.MouseButton1Click:Connect(function()
-	game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").Speed = tonumber(mfkicker.Text)
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = tonumber(mfkicker.Text)
 end)
 local createdInsfggm3 = instCreate(E)
 createdInsfggm3.Parent = E.Parent
@@ -25275,7 +25275,7 @@ createdInsfggmm3:FindFirstChild("BOUNDED").Text = "« CELESTIAL ☆ DIVINE »"
 createdInsfggmm3:FindFirstChild("BOUNDED").Font = Enum.Font.Merriweather
 local UIGradient3 = Instance.new("UIGradient")
 UIGradient3.Rotation = 90
-UIGradient3.Color = ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(0,0,0)),ColorSequenceKeypoint.new(0.4740485,Color3.fromRGB(153,153,153)),ColorSequenceKeypoint.new(1,Color3.fromRGB(255,255,255))})
+UIGradient3.Color = ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(247,155,255)),ColorSequenceKeypoint.new(0.2297064,Color3.fromRGB(172,115,180)),ColorSequenceKeypoint.new(0.4490501,Color3.fromRGB(229,153,239)),ColorSequenceKeypoint.new(0.55,Color3.fromRGB(82,105,142)),ColorSequenceKeypoint.new(0.6580311,Color3.fromRGB(165,221,255)),ColorSequenceKeypoint.new(0.8290156,Color3.fromRGB(93,130,171)),ColorSequenceKeypoint.new(1,Color3.fromRGB(126,203,255))})
 UIGradient3.Parent = createdInsfggmm3:FindFirstChild("BOUNDED")
 createdInsfggmm3.MouseButton1Click:Connect(function()
 	equipCelestialDivine()

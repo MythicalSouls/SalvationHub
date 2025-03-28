@@ -19458,7 +19458,7 @@ createdInsfk3.MouseButton1Click:Connect(function()
 	TpTool.RequiresHandle = false
 	TpTool.Parent = game.Players.LocalPlayer.Backpack
 	TpTool.Activated:Connect(function()
-		local Char = game.Players.LocalPlayer.Character or workspace:FindFirstChild(ame.Players.LocalPlayer.Name)
+		local Char = game.Players.LocalPlayer.Character or workspace:FindFirstChild(game.Players.LocalPlayer.Name)
 		local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
 		if not Char or not HRP then
 			return warn("Failed to find HumanoidRootPart")

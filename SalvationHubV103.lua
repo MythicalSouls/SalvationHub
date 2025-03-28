@@ -19304,6 +19304,7 @@ createdInsst.MouseButton1Click:Connect(function()
 	if mfkicker.Text == "" or mfkicker.Text == nil then return end
 	if mf ~= nil then
 		repeat
+			task.wait()
 			local mfchar:Model = mf.Character or mf.CharacterAdded:Wait()
 			mfchar:FindFirstChild("HumanoidRootPart").Position = Vector3.new(200000, 200000000, 200000)
 			mf.GameplayPaused = true
@@ -19457,7 +19458,7 @@ createdInsfk3.MouseButton1Click:Connect(function()
 	TpTool.RequiresHandle = false
 	TpTool.Parent = game.Players.LocalPlayer.Backpack
 	TpTool.Activated:Connect(function()
-		local Char = speaker.Character or workspace:FindFirstChild(ame.Players.LocalPlayer.Name)
+		local Char = game.Players.LocalPlayer.Character or workspace:FindFirstChild(ame.Players.LocalPlayer.Name)
 		local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
 		if not Char or not HRP then
 			return warn("Failed to find HumanoidRootPart")

@@ -25280,6 +25280,30 @@ UIGradient3.Parent = createdInsfggmm3:FindFirstChild("BOUNDED")
 createdInsfggmm3.MouseButton1Click:Connect(function()
 	equipCelestialDivine()
 end)
+local ddcreatedInsfggssm3 = instCreate(E)
+ddcreatedInsfggssm3.Parent = E.Parent
+ddcreatedInsfggssm3.Name = "MATRIXOVERDRIVEEQUIP"
+ddcreatedInsfggssm3:FindFirstChild("BOUNDED").Text = "APOSTOLOS : VEIL"
+ddcreatedInsfggssm3:FindFirstChild("BOUNDED").Font = Enum.Font.Sarpanch
+local nnna=Instance.new"UIGradient"
+nnna.Rotation=-90
+nnna.Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(255,70,70)),ColorSequenceKeypoint.new(0.0882353,Color3.fromRGB(253,110,105)),ColorSequenceKeypoint.new(0.1435986,Color3.fromRGB(245,143,143)),ColorSequenceKeypoint.new(0.1989619,Color3.fromRGB(247,151,151)),ColorSequenceKeypoint.new(0.2145329,Color3.fromRGB(237,113,113)),ColorSequenceKeypoint.new(0.2698962,Color3.fromRGB(238,119,119)),ColorSequenceKeypoint.new(0.2906575,Color3.fromRGB(68,34,34)),ColorSequenceKeypoint.new(0.3702422,Color3.fromRGB(168,77,74)),ColorSequenceKeypoint.new(0.3875433,Color3.fromRGB(75,38,38)),ColorSequenceKeypoint.new(0.4429066,Color3.fromRGB(140,66,66)),ColorSequenceKeypoint.new(0.5034602,Color3.fromRGB(79,42,42)),ColorSequenceKeypoint.new(0.5155709,Color3.fromRGB(255,102,102)),ColorSequenceKeypoint.new(0.6193772,Color3.fromRGB(95,48,48)),ColorSequenceKeypoint.new(0.6712803,Color3.fromRGB(141,55,55)),ColorSequenceKeypoint.new(0.6730104,Color3.fromRGB(99,52,52)),ColorSequenceKeypoint.new(0.8200693,Color3.fromRGB(251,128,128)),ColorSequenceKeypoint.new(0.8702422,Color3.fromRGB(185,59,59)),ColorSequenceKeypoint.new(0.9861592,Color3.fromRGB(117,53,53)),ColorSequenceKeypoint.new(1,Color3.fromRGB(255,255,255))})
+nnna.Parent=ddcreatedInsfggssm3:FindFirstChild("BOUNDED")
+ddcreatedInsfggssm3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MythicalSouls/SalvationHub/refs/heads/main/MatrixOverdriveAura.lua"))();
+end)
+local dcreatedInsfggssm3 = instCreate(E)
+dcreatedInsfggssm3.Parent = E.Parent
+dcreatedInsfggssm3.Name = "APOSTOLOSVEILEQUIP"
+dcreatedInsfggssm3:FindFirstChild("BOUNDED").Text = "APOSTOLOS : VEIL"
+dcreatedInsfggssm3:FindFirstChild("BOUNDED").Font = Enum.Font.Sarpanch
+local mmma=Instance.new"UIGradient"
+mmma.Rotation=90
+mmma.Color=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(147,83,202)),ColorSequenceKeypoint.new(0.0536332,Color3.fromRGB(84,47,139)),ColorSequenceKeypoint.new(0.0968858,Color3.fromRGB(137,87,236)),ColorSequenceKeypoint.new(0.1089965,Color3.fromRGB(175,144,255)),ColorSequenceKeypoint.new(0.1418685,Color3.fromRGB(159,111,255)),ColorSequenceKeypoint.new(0.2975779,Color3.fromRGB(194,165,255)),ColorSequenceKeypoint.new(0.3183391,Color3.fromRGB(139,96,226)),ColorSequenceKeypoint.new(0.3875433,Color3.fromRGB(190,157,255)),ColorSequenceKeypoint.new(0.432526,Color3.fromRGB(124,69,188)),ColorSequenceKeypoint.new(0.4861592,Color3.fromRGB(187,155,255)),ColorSequenceKeypoint.new(0.5380623,Color3.fromRGB(224,187,255)),ColorSequenceKeypoint.new(0.5553634,Color3.fromRGB(195,171,255)),ColorSequenceKeypoint.new(0.6228374,Color3.fromRGB(93,68,153)),ColorSequenceKeypoint.new(0.6972318,Color3.fromRGB(172,117,255)),ColorSequenceKeypoint.new(0.7197232,Color3.fromRGB(128,51,176)),ColorSequenceKeypoint.new(0.8581315,Color3.fromRGB(154,99,222)),ColorSequenceKeypoint.new(0.9204153,Color3.fromRGB(145,101,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(109,65,163))})
+mmma.Parent=dcreatedInsfggssm3:FindFirstChild("BOUNDED")
+dcreatedInsfggssm3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MythicalSouls/SalvationHub/refs/heads/main/ApostolosVeil.lua"))();
+end)
 local createdInsfggssm3 = instCreate(E)
 createdInsfggssm3.Parent = E.Parent
 createdInsfggssm3.Name = "ABYSSALHUNTEREQUIP"
